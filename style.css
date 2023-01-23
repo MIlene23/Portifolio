@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
-body{
+ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif ;
@@ -8,17 +8,17 @@ body{
 .header-container {
     height: 100vh;
     width: 100vw;
-    background-color: beige;
+    background-color: bisque;
     background-image: url('images/fotosite.png');
     background-repeat: no-repeat;
-    background-position: center;
+   background-position: right;
     background-size: contain;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     box-sizing: border-box;
-    padding: 0 112px;
+    padding: 0 52px;
     position: relative;
 }
 h1{
@@ -150,6 +150,10 @@ a:hover{
 }
 
 #toggle:checked ~ .checkbox {
+    background-color: #fff;
+}
+
+#toggle:checked ~ .menu {
     box-shadow: 0px 0px 0px 100vmax #fff;
     z-index: 1;
 }
